@@ -15,5 +15,8 @@
   <button type="button" (click)="share()" class="btn btn-primary">
     Share
   </button>
+    <app-product-alerts [product]="product" (selectedProduct)="onNotify($event)">
+        >
+    </app-product-alerts>
 
 </div>
